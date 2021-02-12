@@ -3363,6 +3363,16 @@ vertical-align: baseline;
 .acs-text-8,
 .acs-text-9,
 .acs-text-10,
+.acs-text-11,
+.acs-text-12,
+.acs-text-13,
+.acs-text-14,
+.acs-text-15,
+.acs-text-16,
+.acs-text-17,
+.acs-text-18,
+.acs-text-19,
+.acs-text-20,
 .acs-text-1-sm,
 .acs-text-2-sm,
 .acs-text-3-sm,
@@ -3373,6 +3383,16 @@ vertical-align: baseline;
 .acs-text-8-sm,
 .acs-text-9-sm,
 .acs-text-10-sm,
+.acs-text-11-sm,
+.acs-text-12-sm,
+.acs-text-13-sm,
+.acs-text-14-sm,
+.acs-text-15-sm,
+.acs-text-16-sm,
+.acs-text-17-sm,
+.acs-text-18-sm,
+.acs-text-19-sm,
+.acs-text-20-sm,
 .acs-text-1-md,
 .acs-text-2-md,
 .acs-text-3-md,
@@ -3383,6 +3403,16 @@ vertical-align: baseline;
 .acs-text-8-md,
 .acs-text-9-md,
 .acs-text-10-md,
+.acs-text-11-md,
+.acs-text-12-md,
+.acs-text-13-md,
+.acs-text-14-md,
+.acs-text-15-md,
+.acs-text-16-md,
+.acs-text-17-md,
+.acs-text-18-md,
+.acs-text-19-md,
+.acs-text-20-md,
 .acs-text-1-lg,
 .acs-text-2-lg,
 .acs-text-3-lg,
@@ -3393,6 +3423,16 @@ vertical-align: baseline;
 .acs-text-8-lg,
 .acs-text-9-lg,
 .acs-text-10-lg,
+.acs-text-11-lg,
+.acs-text-12-lg,
+.acs-text-13-lg,
+.acs-text-14-lg,
+.acs-text-15-lg,
+.acs-text-16-lg,
+.acs-text-17-lg,
+.acs-text-18-lg,
+.acs-text-19-lg,
+.acs-text-20-lg,
 .acs-text-1-xl,
 .acs-text-2-xl,
 .acs-text-3-xl,
@@ -3403,6 +3443,16 @@ vertical-align: baseline;
 .acs-text-8-xl,
 .acs-text-9-xl,
 .acs-text-10-xl,
+.acs-text-11-xl,
+.acs-text-12-xl,
+.acs-text-13-xl,
+.acs-text-14-xl,
+.acs-text-15-xl,
+.acs-text-16-xl,
+.acs-text-17-xl,
+.acs-text-18-xl,
+.acs-text-19-xl,
+.acs-text-20-xl,
 .acs-text-1-2xl,
 .acs-text-2-2xl,
 .acs-text-3-2xl,
@@ -3413,6 +3463,16 @@ vertical-align: baseline;
 .acs-text-8-2xl,
 .acs-text-9-2xl,
 .acs-text-10-2xl,
+.acs-text-11-2xl,
+.acs-text-12-2xl,
+.acs-text-13-2xl,
+.acs-text-14-2xl,
+.acs-text-15-2xl,
+.acs-text-16-2xl,
+.acs-text-17-2xl,
+.acs-text-18-2xl,
+.acs-text-19-2xl,
+.acs-text-20-2xl,
 .acs-text-1-3xl,
 .acs-text-2-3xl,
 .acs-text-3-3xl,
@@ -3422,7 +3482,17 @@ vertical-align: baseline;
 .acs-text-7-3xl,
 .acs-text-8-3xl,
 .acs-text-9-3xl,
-.acs-text-10-3xl {
+.acs-text-10-3xl 
+.acs-text-11-3xl,
+.acs-text-12-3xl,
+.acs-text-13-3xl,
+.acs-text-14-3xl,
+.acs-text-15-3xl,
+.acs-text-16-3xl,
+.acs-text-17-3xl,
+.acs-text-18-3xl,
+.acs-text-19-3xl,
+.acs-text-20-3xl {
 margin: 0;
 padding: 0;
 border: 0;
@@ -3433,204 +3503,384 @@ vertical-align: baseline;
 
 /* For devices larger than 0px */
 .acs-text-1 {
-font-size: .75rem
+font-size: .125rem
 }
 .acs-text-2 {
-font-size: .875rem
+font-size: .25rem
 }
 .acs-text-3 {
-font-size: 1rem
+font-size: .5rem
 }
 .acs-text-4 {
-font-size: 1.125rem
+font-size: .75rem
 }
 .acs-text-5 {
-font-size: 1.25rem
+font-size: .875rem
 }
 .acs-text-6 {
-font-size: 1.5rem
+font-size: 1rem
 }
 .acs-text-7 {
-font-size: 1.875rem
+font-size: 1.125rem
 }
 .acs-text-8 {
-font-size: 2.25rem
+font-size: 1.25rem
 }
 .acs-text-9 {
-font-size: 3rem
+font-size: 1.5rem
 }
 .acs-text-10 {
+font-size: 1.75rem
+}
+.acs-text-11 {
+font-size: 1.875rem
+}
+.acs-text-12 {
+font-size: 2rem
+}
+.acs-text-13 {
+font-size: 2.125rem
+}
+.acs-text-14 {
+font-size: 2.25rem
+}
+.acs-text-15 {
+font-size: 2.5rem
+}
+.acs-text-16 {
+font-size: 2.75rem
+}
+.acs-text-17 {
+font-size: 2.875rem
+}
+.acs-text-18 {
+font-size: 3rem
+}
+.acs-text-19 {
 font-size: 4rem
+}
+.acs-text-20 {
+font-size: 5rem
 }
 
 /* For devices larger than 575px (Phablet) */
 @media (min-width: 575px) {
 .acs-text-1-sm {
-font-size: .75rem
+font-size: .125rem
 }
 .acs-text-2-sm {
-font-size: .875rem
+font-size: .25rem
 }
 .acs-text-3-sm {
-font-size: 1rem
+font-size: .5rem
 }
 .acs-text-4-sm {
-font-size: 1.125rem
+font-size: .75rem
 }
 .acs-text-5-sm {
-font-size: 1.25rem
+font-size: .875rem
 }
 .acs-text-6-sm {
-font-size: 1.5rem
+font-size: 1rem
 }
 .acs-text-7-sm {
-font-size: 1.875rem
+font-size: 1.125rem
 }
 .acs-text-8-sm {
-font-size: 2.25rem
+font-size: 1.25rem
 }
 .acs-text-9-sm {
-font-size: 3rem
+font-size: 1.5rem
 }
 .acs-text-10-sm {
+font-size: 1.75rem
+}
+.acs-text-11-sm {
+font-size: 1.875rem
+}
+.acs-text-12-sm {
+font-size: 2rem
+}
+.acs-text-13-sm {
+font-size: 2.125rem
+}
+.acs-text-14-sm {
+font-size: 2.25rem
+}
+.acs-text-15-sm {
+font-size: 2.5rem
+}
+.acs-text-16-sm {
+font-size: 2.75rem
+}
+.acs-text-17-sm {
+font-size: 2.875rem
+}
+.acs-text-18-sm {
+font-size: 3rem
+}
+.acs-text-19-sm {
 font-size: 4rem
+}
+.acs-text-20-sm {
+font-size: 5rem
 }
 }
 
 /* For devices larger than 768px (Desktop) */
 @media (min-width: 768px) {
 .acs-text-1-md {
-font-size: .75rem
+font-size: .125rem
 }
 .acs-text-2-md {
-font-size: .875rem
+font-size: .25rem
 }
 .acs-text-3-md {
-font-size: 1rem
+font-size: .5rem
 }
 .acs-text-4-md {
-font-size: 1.125rem
+font-size: .75rem
 }
 .acs-text-5-md {
-font-size: 1.25rem
+font-size: .875rem
 }
 .acs-text-6-md {
-font-size: 1.5rem
+font-size: 1rem
 }
 .acs-text-7-md {
-font-size: 1.875rem
+font-size: 1.125rem
 }
 .acs-text-8-md {
-font-size: 2.25rem
+font-size: 1.25rem
 }
 .acs-text-9-md {
-font-size: 3rem
+font-size: 1.5rem
 }
 .acs-text-10-md {
+font-size: 1.75rem
+}
+.acs-text-11-md {
+font-size: 1.875rem
+}
+.acs-text-12-md {
+font-size: 2rem
+}
+.acs-text-13-md {
+font-size: 2.125rem
+}
+.acs-text-14-md {
+font-size: 2.25rem
+}
+.acs-text-15-md {
+font-size: 2.5rem
+}
+.acs-text-16-md {
+font-size: 2.75rem
+}
+.acs-text-17-md {
+font-size: 2.875rem
+}
+.acs-text-18-md {
+font-size: 3rem
+}
+.acs-text-19-md {
 font-size: 4rem
+}
+.acs-text-20-md {
+font-size: 5rem
 }
 }
 
 /* For devices larger than 995px (Large Desktop) */
 @media (min-width: 995px) {
 .acs-text-1-lg {
-font-size: .75rem
+font-size: .125rem
 }
 .acs-text-2-lg {
-font-size: .875rem
+font-size: .25rem
 }
 .acs-text-3-lg {
-font-size: 1rem
+font-size: .5rem
 }
 .acs-text-4-lg {
-font-size: 1.125rem
+font-size: .75rem
 }
 .acs-text-5-lg {
-font-size: 1.25rem
+font-size: .875rem
 }
 .acs-text-6-lg {
-font-size: 1.5rem
+font-size: 1rem
 }
 .acs-text-7-lg {
-font-size: 1.875rem
+font-size: 1.125rem
 }
 .acs-text-8-lg {
-font-size: 2.25rem
+font-size: 1.25rem
 }
 .acs-text-9-lg {
-font-size: 3rem
+font-size: 1.5rem
 }
 .acs-text-10-lg {
+font-size: 1.75rem
+}
+.acs-text-11-lg {
+font-size: 1.875rem
+}
+.acs-text-12-lg {
+font-size: 2rem
+}
+.acs-text-13-lg {
+font-size: 2.125rem
+}
+.acs-text-14-lg {
+font-size: 2.25rem
+}
+.acs-text-15-lg {
+font-size: 2.5rem
+}
+.acs-text-16-lg {
+font-size: 2.75rem
+}
+.acs-text-17-lg {
+font-size: 2.875rem
+}
+.acs-text-18-lg {
+font-size: 3rem
+}
+.acs-text-19-lg {
 font-size: 4rem
+}
+.acs-text-20-lg {
+font-size: 5rem
 }
 }
 
 /* For devices larger than 1024px (Extra Large Desktop) */
 @media (min-width: 1024px) {
 .acs-text-1-xl {
-font-size: .75rem
+font-size: .125rem
 }
 .acs-text-2-xl {
-font-size: .875rem
+font-size: .25rem
 }
 .acs-text-3-xl {
-font-size: 1rem
+font-size: .5rem
 }
 .acs-text-4-xl {
-font-size: 1.125rem
+font-size: .75rem
 }
 .acs-text-5-xl {
-font-size: 1.25rem
+font-size: .875rem
 }
 .acs-text-6-xl {
-font-size: 1.5rem
+font-size: 1rem
 }
 .acs-text-7-xl {
-font-size: 1.875rem
+font-size: 1.125rem
 }
 .acs-text-8-xl {
-font-size: 2.25rem
+font-size: 1.25rem
 }
 .acs-text-9-xl {
-font-size: 3rem
+font-size: 1.5rem
 }
 .acs-text-10-xl {
+font-size: 1.75rem
+}
+.acs-text-11-xl {
+font-size: 1.875rem
+}
+.acs-text-12-xl {
+font-size: 2rem
+}
+.acs-text-13-xl {
+font-size: 2.125rem
+}
+.acs-text-14-xl {
+font-size: 2.25rem
+}
+.acs-text-15-xl {
+font-size: 2.5rem
+}
+.acs-text-16-xl {
+font-size: 2.75rem
+}
+.acs-text-17-xl {
+font-size: 2.875rem
+}
+.acs-text-18-xl {
+font-size: 3rem
+}
+.acs-text-19-xl {
 font-size: 4rem
-} 
+}
+.acs-text-20-xl {
+font-size: 5rem
+}
 }
 
 
 /* For devices larger than 1280px (2XL Desktop) */
 @media (min-width: 1280px) {
 .acs-text-1-2xl {
-font-size: .75rem
+font-size: .125rem
 }
 .acs-text-2-2xl {
-font-size: .875rem
+font-size: .25rem
 }
 .acs-text-3-2xl {
-font-size: 1rem
+font-size: .5rem
 }
 .acs-text-4-2xl {
-font-size: 1.125rem
+font-size: .75rem
 }
 .acs-text-5-2xl {
-font-size: 1.25rem
+font-size: .875rem
 }
 .acs-text-6-2xl {
-font-size: 1.5rem
+font-size: 1rem
 }
 .acs-text-7-2xl {
-font-size: 1.875rem
+font-size: 1.125rem
 }
 .acs-text-8-2xl {
-font-size: 2.25rem
+font-size: 1.25rem
 }
 .acs-text-9-2xl {
-font-size: 3rem
+font-size: 1.5rem
 }
 .acs-text-10-2xl {
+font-size: 1.75rem
+}
+.acs-text-11-2xl {
+font-size: 1.875rem
+}
+.acs-text-12-2xl {
+font-size: 2rem
+}
+.acs-text-13-2xl {
+font-size: 2.125rem
+}
+.acs-text-14-2xl {
+font-size: 2.25rem
+}
+.acs-text-15-2xl {
+font-size: 2.5rem
+}
+.acs-text-16-2xl {
+font-size: 2.75rem
+}
+.acs-text-17-2xl {
+font-size: 2.875rem
+}
+.acs-text-18-2xl {
+font-size: 3rem
+}
+.acs-text-19-2xl {
 font-size: 4rem
+}
+.acs-text-20-2xl {
+font-size: 5rem
 }  
 }
 
@@ -3639,35 +3889,65 @@ font-size: 4rem
 /* For devices larger than 1536px (3XL Desktop) */
 @media (min-width: 1536px) {
 .acs-text-1-3xl {
-font-size: .75rem
+font-size: .125rem
 }
 .acs-text-2-3xl {
-font-size: .875rem
+font-size: .25rem
 }
 .acs-text-3-3xl {
-font-size: 1rem
+font-size: .5rem
 }
 .acs-text-4-3xl {
-font-size: 1.125rem
+font-size: .75rem
 }
 .acs-text-5-3xl {
-font-size: 1.25rem
+font-size: .875rem
 }
 .acs-text-6-3xl {
-font-size: 1.5rem
+font-size: 1rem
 }
 .acs-text-7-3xl {
-font-size: 1.875rem
+font-size: 1.125rem
 }
 .acs-text-8-3xl {
-font-size: 2.25rem
+font-size: 1.25rem
 }
 .acs-text-9-3xl {
-font-size: 3rem
+font-size: 1.5rem
 }
 .acs-text-10-3xl {
+font-size: 1.75rem
+}
+.acs-text-11-3xl {
+font-size: 1.875rem
+}
+.acs-text-12-3xl {
+font-size: 2rem
+}
+.acs-text-13-3xl {
+font-size: 2.125rem
+}
+.acs-text-14-3xl {
+font-size: 2.25rem
+}
+.acs-text-15-3xl {
+font-size: 2.5rem
+}
+.acs-text-16-3xl {
+font-size: 2.75rem
+}
+.acs-text-17-3xl {
+font-size: 2.875rem
+}
+.acs-text-18-3xl {
+font-size: 3rem
+}
+.acs-text-19-3xl {
 font-size: 4rem
-}   
+}
+.acs-text-20-3xl {
+font-size: 5rem
+} 
 }
 
 
