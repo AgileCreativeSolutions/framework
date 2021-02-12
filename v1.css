@@ -93,24 +93,17 @@ sup {
 top: -.5em;
 }
 
-.content-raw {
-position: relative;
-width: 100vw;
-max-width: none;
-left: -50vw;
-margin-left: 50%;
-padding: 0;
--webkit-box-sizing: border-box;
-box-sizing: border-box; 
-vertical-align: baseline;
+.ddc-wrapper, .main {
+width: 100vw !important;
+max-width: none !important;
 }
 
 .acs-wrapper {
 position: relative;
-width: 100vw;
-max-width: none;
-left: -50vw;
-margin-left: 50%;
+width: 100vw !important;
+max-width: none !important;
+left: -50vw !important;
+margin-left: 50% !important;
 padding: 0;
 -webkit-box-sizing: border-box;
 box-sizing: border-box; 
