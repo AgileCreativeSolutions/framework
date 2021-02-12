@@ -5357,7 +5357,7 @@ margin: 0rem 1.2rem 1.2rem 0rem
 
 /* Full Width Button */ 
 .acs-button-fw {
-min-width: 100%
+min-width: 100% !important 
 }
 
 /* For devices smaller than 767px (Small Desktop) */
