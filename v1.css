@@ -4137,10 +4137,21 @@ text-transform: uppercase;
 .acs-capitalize {
 text-transform: capitalize;
 }
+.acs-wrap {
+white-space: normal;
+}
+.acs-wrap-pre {
+white-space: pre;
+}
 .acs-nowrap {
 white-space: nowrap;
 }
-
+.acs-pre-wrap {
+white-space: pre-wrap;
+}
+.acs-pre-line {
+white-space: pre-line;
+}
 
 
 /* Padding Top */
