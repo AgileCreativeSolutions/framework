@@ -95,10 +95,16 @@ sup {
 top: -.5em;
 }
 
+/* DDC Conditional Coding */
 .ddc-wrapper, .main {
 width: 100vw !important;
 max-width: none !important;
 }
+
+[data-name="raw-content-area.1-1"] {
+margin-top: -25px !important
+}
+/* DDC Conditional Coding */
 
 .acs-wrapper {
 position: relative;
