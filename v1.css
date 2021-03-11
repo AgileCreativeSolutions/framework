@@ -6356,14 +6356,26 @@ opacity: 0.25
 .acs-opacity-30 {
 opacity: 0.3
 }
+.acs-opacity-35 {
+opacity: 0.35
+}
 .acs-opacity-40 {
 opacity: 0.4
+}
+.acs-opacity-45 {
+opacity: 0.45
 }
 .acs-opacity-50 {
 opacity: 0.5
 }
+.acs-opacity-55 {
+opacity: 0.55
+}
 .acs-opacity-60 {
 opacity: 0.6
+}
+.acs-opacity-65 {
+opacity: 0.65
 }
 .acs-opacity-70 {
 opacity: 0.7
@@ -6374,8 +6386,11 @@ opacity: 0.75
 .acs-opacity-80 {
 opacity: 0.8
 }
+.acs-opacity-85 {
+opacity: 0.85
+}
 .acs-opacity-90 {
-opacity: 0.95
+opacity: 0.9
 }
 .acs-opacity-95 {
 opacity: 0.95
