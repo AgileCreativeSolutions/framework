@@ -1132,7 +1132,7 @@ margin-left: 0
 }
 }
 
-/* For devices larger than 1024px (Extra Large Desktop) */
+/* For devices larger than 1024px (XL Desktop) */
 @media (min-width: 1024px) {
 .acs-column-xl, .acs-columns-xl {
 -ms-flex-preferred-size: 0;
@@ -3216,8 +3216,64 @@ display: inline-flex;
 }
 }
 
-/* For devices larger than 1024px (Extra Large Desktop) */
+
+/* For devices larger than 1024px (XL Desktop) */
 @media (min-width: 1024px) {
+.acs-hide-xl {
+display: none;
+visibility: hidden;
+}
+.acs-appear-xl {
+display: block;
+visibility: visible;
+}
+.acs-collapse-xl {
+display: none;
+visibility: collapse;
+}
+.acs-contents-xl {
+display: contents;
+visibility: visible;
+}
+
+.acs-disaply-inline-xl {
+display: inline;
+}
+
+.acs-display-inline-block-xl {
+display: inline-block;
+}
+
+.acs-display-block-xl {
+display: block;
+}
+
+.acs-display-table-xl {
+display: table;
+}
+
+.acs-display-table-row-xl {
+display: table-row;
+}
+
+.acs-display-table-cell-xl {
+display: table-cell;
+}
+
+.acs-display-flex-xl {
+display: -ms-flexbox;
+display: flex;
+}
+
+.acs-display-inline-flex-xl {
+display: -ms-inline-flexbox;
+display: inline-flex;
+}
+}
+
+
+/* For devices larger than 1280px (2XL Desktop) */
+@media (min-width: 1280px) {
 .acs-hide-2xl {
 display: none;
 visibility: hidden;
@@ -3756,7 +3812,7 @@ font-size: 5rem
 }
 }
 
-/* For devices larger than 1024px (Extra Large Desktop) */
+/* For devices larger than 1024px (XL Desktop) */
 @media (min-width: 1024px) {
 .acs-text-1-xl {
 font-size: .125rem
@@ -4084,7 +4140,7 @@ text-align: justify;
 }
 }
 
-/* For devices larger than 1024px (Extra Large Desktop) */
+/* For devices larger than 1024px (XL Desktop) */
 @media (min-width: 1024px) {
 .acs-text-left-xl {
 text-align: left;
@@ -4100,7 +4156,7 @@ text-align: justify;
 }
 }
 
-/* For devices larger than 1024px (Extra Large Desktop) */
+/* For devices larger than 1024px (XL Desktop) */
 @media (min-width: 1280px) {
 .acs-text-left-2xl {
 text-align: left;
@@ -4116,7 +4172,7 @@ text-align: justify;
 }
 }
 
-/* For devices larger than 1024px (Extra Large Desktop) */
+/* For devices larger than 1024px (XL Desktop) */
 @media (min-width: 1536px) {
 .acs-text-left-3xl {
 text-align: left;
