@@ -96,13 +96,14 @@ top: -.5em;
 }
 
 /* DDC Conditional Coding */
-.ddc-wrapper, .main {
-width: 100vw !important;
-max-width: none !important;
+[data-name="title.1-1"] {
+margin-bottom: -25px !important;
+background: yellow !important
 }
 
-[data-name="raw-content-area.1-1"] {
-margin-top: -25px !important
+[data-name="content-raw"] {
+width: 100vw !important;
+max-width: none !important;
 }
 /* DDC Conditional Coding */
 
@@ -110,8 +111,7 @@ margin-top: -25px !important
 position: relative;
 width: 100vw !important;
 max-width: none !important;
-left: -50vw !important;
-margin-left: 50% !important;
+margin: 0 auto !important;
 padding: 0;
 -webkit-box-sizing: border-box;
 box-sizing: border-box; 
