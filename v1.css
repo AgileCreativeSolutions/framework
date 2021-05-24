@@ -40,9 +40,11 @@ html {
 margin: 0;
 padding: 0;
 border: 0;
+/*
 font-size: 100%;
 -webkit-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
+*/
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 -webkit-font-smoothing: auto;
@@ -67,7 +69,7 @@ margin-bottom: 1rem;
 border: 0;
 border-top: 1px solid rgba(0, 0, 0, 0.1);
 box-sizing: content-box;
-/* 1 */
+1 */
 height: 0;
 /* 1 */
 overflow: visible;
@@ -5953,9 +5955,9 @@ border-bottom-right-radius: 4rem;
 border-top-right-radius: 100rem;
 border-bottom-right-radius: 100rem
 }
-  
 
-    
+
+
 /* Border Radius Botom */
 .acs-br-b-none {
 border-bottom-right-radius: 0;
@@ -6041,9 +6043,9 @@ border-bottom-left-radius: 4rem;
 border-bottom-right-radius: 100rem;
 border-bottom-left-radius: 100rem
 }
-  
 
-    
+
+
 /* Border Radius Left */
 .acs-br-l-none {
 border-top-left-radius: 0;
@@ -6129,8 +6131,8 @@ border-bottom-left-radius: 4rem;
 border-top-left-radius: 100rem;
 border-bottom-left-radius: 100rem
 }
-    
-    
+
+
 
 /* Border Radius Top Left */
 .acs-br-tl-none {
@@ -6263,7 +6265,7 @@ border-top-right-radius: 4rem;
 .acs-br-tr-20 {
 border-top-right-radius: 100rem
 }
-  
+
 
 
 /* Border Radius Bottom Right */
