@@ -95,7 +95,7 @@ sup {
 top: -.5em;
 }
 
-/* DDC Conditional Coding */
+/* ddc adjustments */
 [data-name="title.1-1"] {
 margin-bottom: -25px !important;
 }
@@ -104,7 +104,7 @@ margin-bottom: -25px !important;
 width: 100vw !important;
 max-width: none !important;
 }
-/* DDC Conditional Coding */
+/* ddc adjustments */
 
 .acs-wrapper {
 position: relative;
