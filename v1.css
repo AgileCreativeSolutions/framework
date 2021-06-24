@@ -246,16 +246,25 @@ display: -ms-flexbox;
 .acs-column, .acs-columns {
 position: relative;
 width: 100%;
-padding-right: 1%;
-padding-left: 1%;
+padding-right: 1em;
+padding-left: 1em;
+}
+
+
+.acs-one-sm, .acs-two-sm, .acs-three-sm, .acs-four-sm, .acs-five-sm, .acs-six-sm, .acs-seven-sm, .acs-eight-sm, .acs-nine-sm, .acs-ten-sm, .acs-eleven-sm, .acs-twelve-sm, .acs-one-md, .acs-two-md, .acs-three-md, .acs-four-md, .acs-five-md, .acs-six-md, .acs-seven-md, .acs-eight-md, .acs-nine-md, .acs-ten-md, .acs-eleven-md, .acs-twelve-md, .acs-one-lg, .acs-two-lg, .acs-three-lg, .acs-four-lg, .acs-five-lg, .acs-six-lg, .acs-seven-lg, .acs-eight-lg, .acs-nine-lg, .acs-ten-lg, .acs-eleven-lg, .acs-twelve-lg, .acs-one-xl, .acs-two-xl, .acs-three-xl, .acs-four-xl, .acs-five-xl, .acs-six-xl, .acs-seven-xl, .acs-eight-xl, .acs-nine-xl, .acs-ten-xl, .acs-eleven-xl, .acs-twelve-xl, .acs-one-2xl, .acs-two-2xl, .acs-three-2xl, .acs-four-2xl, .acs-five-2xl, .acs-six-2xl, .acs-seven-2xl, .acs-eight-2xl, .acs-nine-2xl, .acs-ten-2xl, .acs-eleven-2xl, .acs-twelve-2xl, .acs-one-3xl, .acs-two-3xl, .acs-three-3xl, .acs-four-3xl, .acs-five-3xl, .acs-six-3xl, .acs-seven-3xl, .acs-eight-3xl, .acs-nine-3xl, .acs-ten-3xl, .acs-eleven-3xl, .acs-twelve-3xl {
+position: relative;
+-ms-flex: 0 0 100%;
+-webkit-box-flex: 0;
+flex: 0 0 100%;
+width: 100%
 }
 
 
 /* For devices larger than 0px */
 .acs-column, .acs-columns {
--ms-flex-preferred-size: 0;
+-ms-flex-preferred-size: 1;
 -ms-flex-positive: 1;
-flex-basis: 0;
+flex-basis: 1;
 -webkit-box-flex: 1;
 flex-grow: 1;
 max-width: 100%
@@ -473,9 +482,9 @@ margin-left: 0
 /* For devices larger than 575px (Phablet)*/
 @media (min-width: 575px)  {
 .acs-column-sm, .acs-columns-sm {
--ms-flex-preferred-size: 0;
+-ms-flex-preferred-size: 1;
 -ms-flex-positive: 1;
-flex-basis: 0;
+flex-basis: 1;
 -webkit-box-flex: 1;
 flex-grow: 1;
 max-width: 100%
@@ -695,9 +704,9 @@ margin-left: 0
 /* For devices larger than 768px (Desktop) */
 @media (min-width: 768px) {
 .acs-column-md, .acs-columns-md {
--ms-flex-preferred-size: 0;
+-ms-flex-preferred-size: 1;
 -ms-flex-positive: 1;
-flex-basis: 0;
+flex-basis: 1;
 -webkit-box-flex: 1;
 flex-grow: 1;
 max-width: 100%
@@ -915,9 +924,9 @@ margin-left: 0
 /* For devices larger than 995px (Large Desktop) */
 @media (min-width: 995px) {
 .acs-column-lg, .acs-columns-lg {
--ms-flex-preferred-size: 0;
+-ms-flex-preferred-size: 1;
 -ms-flex-positive: 1;
-flex-basis: 0;
+flex-basis: 1;
 -webkit-box-flex: 1;
 flex-grow: 1;
 max-width: 100%
@@ -1135,9 +1144,9 @@ margin-left: 0
 /* For devices larger than 1024px (XL Desktop) */
 @media (min-width: 1024px) {
 .acs-column-xl, .acs-columns-xl {
--ms-flex-preferred-size: 0;
+-ms-flex-preferred-size: 1;
 -ms-flex-positive: 1;
-flex-basis: 0;
+flex-basis: 1;
 -webkit-box-flex: 1;
 flex-grow: 1;
 max-width: 100%
@@ -1355,9 +1364,9 @@ margin-left: 0
 /* For devices larger than 1280px (2XL Desktop) */
 @media (min-width: 1280px) {
 .acs-column-2xl, .acs-columns-2xl {
--ms-flex-preferred-size: 0;
+-ms-flex-preferred-size: 1;
 -ms-flex-positive: 1;
-flex-basis: 0;
+flex-basis: 1;
 -webkit-box-flex: 1;
 flex-grow: 1;
 max-width: 100%
@@ -1575,9 +1584,9 @@ margin-left: 0
 /* For devices larger than 1536px (3XL Desktop) */
 @media (min-width: 1536px) {
 .acs-column-3xl, .acs-columns-3xl {
--ms-flex-preferred-size: 0;
+-ms-flex-preferred-size: 1;
 -ms-flex-positive: 1;
-flex-basis: 0;
+flex-basis: 1;
 -webkit-box-flex: 1;
 flex-grow: 1;
 max-width: 100%
