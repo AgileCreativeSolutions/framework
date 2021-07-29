@@ -7598,14 +7598,26 @@ background-color: rgba(16,24,42, var(--acs-bg-opacity))
 .acs-bg-opacity-30 {
 --acs-bg-opacity: 0.3;
 }
+.acs-bg-opacity-35 {
+--acs-bg-opacity: 0.35;
+}
 .acs-bg-opacity-40 {
 --acs-bg-opacity: 0.4;
+}
+.acs-bg-opacity-45 {
+--acs-bg-opacity: 0.45;
 }
 .acs-bg-opacity-50 {
 --acs-bg-opacity: 0.5;
 }
+.acs-bg-opacity-55 {
+--acs-bg-opacity: 0.55;
+}
 .acs-bg-opacity-60 {
 --acs-bg-opacity: 0.6;
+}
+.acs-bg-opacity-65 {
+--acs-bg-opacity: 0.65;
 }
 .acs-bg-opacity-70 {
 --acs-bg-opacity: 0.7;
@@ -7615,6 +7627,9 @@ background-color: rgba(16,24,42, var(--acs-bg-opacity))
 }
 .acs-bg-opacity-80{
 --acs-bg-opacity: 0.8;
+}
+.acs-bg-opacity-80{
+--acs-bg-opacity: 0.85;
 }
 .acs-bg-opacity-90 {
 --acs-bg-opacity: 0.9;
