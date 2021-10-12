@@ -4021,34 +4021,34 @@ font-size: 5rem
 
 /* Line Height */
 .acs-lh-1 {
-line-height: .5;
+line-height: .5 !important;
 }
 .acs-lh-2 {
-line-height: .75;
+line-height: .75 !important;
 }
 .acs-lh-3 {
-line-height: 1;
+line-height: 1 !important;
 }
 .acs-lh-4 {
-line-height: 1.25;
+line-height: 1.25 !important;
 }
 .acs-lh-5 {
-line-height: 1.5;
+line-height: 1.5 !important;
 }
 .acs-lh-6 {
-line-height: 1.75;
+line-height: 1.75 !important;
 }
 .acs-lh-7 {
-line-height: 2;
+line-height: 2 !important;
 }
 .acs-lh-8 {
-line-height: 2.25;
+line-height: 2.25 !important;
 }
 .acs-lh-9 {
-line-height: 2.5;
+line-height: 2.5 !important;
 }
 .acs-lh-10 {
-line-height: 2.75;
+line-height: 2.75 !important;
 }
 
 
