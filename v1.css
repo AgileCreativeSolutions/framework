@@ -110,6 +110,10 @@ max-width: none !important;
 [data-name="content-centered-container-1"] {
 padding-top: 0 !important
 }
+
+[data-name="raw-content-area.1-1"] {
+padding-top: 0 !important
+}
 /* ddc adjustments */
 
 .acs-wrapper {
