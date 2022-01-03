@@ -26,6 +26,7 @@
 - Box Shadows
 - Background Base Colors
 - Background Opacity
+- Base Text Colors
 - Opacity
 - Min Heights
 - Positioning
@@ -7713,6 +7714,912 @@ background-color: rgba(16,24,42, var(--acs-bg-opacity))
 }
 .acs-bg-opacity-100 {
 --acs-bg-opacity: 1;
+}
+
+
+
+/* Base Text Colors
+/* rose */
+.acs-rose-50 {
+color: #fff1f2;
+color: rgba(254, 241, 242, 1);
+}
+.acs-rose-100 {
+color: #ffe4e6;
+color: rgba(253, 228, 230, 1);
+}
+.acs-rose-200 {
+color: #fecdd3;
+color: rgba(251, 205, 211, 1);
+}
+.acs-rose-300 {
+color: #fda4af;
+color: rgba(249, 164, 175, 1);
+}
+.acs-rose-400 {
+color: #fb7185;
+color: rgba(246, 113, 133, 1);
+}
+.acs-rose-500 {
+color: #f43f5e;
+color: rgba(244, 63, 94, 1);
+}
+.acs-rose-600 {
+color: #e11d48;
+color: rgba(255, 29, 72, 1);
+}
+.acs-rose-700 {
+color: #be123c;
+color: rgba(190, 19, 60, 1);
+}
+.acs-rose-800 {
+color: #9f1239;
+color: rgba(159, 17, 57, 1);
+}
+.acs-rose-900 {
+color: #881337;
+color: rgba(136, 19, 55, 1);
+}
+/* pink */
+.acs-pink-50 {
+color: #fdf2f8;
+color: rgba(253, 242, 248, 1)
+}
+.acs-pink-100 {
+color: #fce7f3;
+color: rgba(252, 230, 243, 1)
+}
+.acs-pink-200 {
+color: #fbcfe8;
+color: rgba(251, 207, 232, 1)
+}
+.acs-pink-300 {
+color: #f9a8d4;
+color: rgba(249, 168, 212, 1)
+}
+.acs-pink-400 {
+color: #f472b6;
+color: rgba(244, 114, 182, 1)
+}
+.acs-pink-500 {
+color: #ec4899;
+color: rgba(236, 72, 152, 1)
+}
+.acs-pink-600 {
+color: #db2777;
+color: rgba(219, 39, 119, 1)
+}
+.acs-pink-700 {
+color: #be185d;
+color: rgba(190, 24, 93, 1)
+}
+.acs-pink-800 {
+color: #9d174d;
+color: rgba(157, 23, 77, 1)
+}
+.acs-pink-900 {
+color: #831843;
+color: rgba(131, 24, 67, 1)
+}
+/* fuchsia */
+.acs-fuchsia-50 {
+color: #fdf4ff;
+color: rgba(253, 244, 255, 1);
+}
+.acs-fuchsia-100 {
+color: #fae8ff;
+color: rgba(250, 232, 255, 1);
+}
+.acs-fuchsia-200 {
+color: #f5d0fe;
+color: rgba(245, 208, 254, 1);
+}
+.acs-fuchsia-300 {
+color: #f0abfc;
+color: rgba(240, 171, 252, 1);
+}
+.acs-fuchsia-400 {
+color: #e879f9;
+color: rgba(232, 121, 249, 1);
+}
+.acs-fuchsia-500 {
+color: #d946ef;
+color: rgba(217, 70, 239, 1);
+}
+.acs-fuchsia-600 {
+color: #c026d3;
+color: rgba(192, 38, 211, 1);
+}
+.acs-fuchsia-700 {
+color: #a21caf;
+color: rgba(162, 28, 175, 1);
+}
+.acs-fuchsia-800 {
+color: #86198f;
+color: rgba(134, 25, 143, 1);
+}
+.acs-fuchsia-900 {
+color: #701a75;
+color: rgba(112, 25, 117, 1);
+}
+/* purple */
+.acs-purple-50 {
+color: #faf5ff;
+color: rgba(250, 245, 255, 1)
+}
+.acs-purple-100 {
+color: #f3e8ff;
+color: rgba(243, 232, 255, 1)
+}
+.acs-purple-200 {
+color: #e9d8fd;
+color: rgba(233, 216, 253, 1)
+}
+.acs-purple-300 {
+color: #d6bcfa;
+color: rgba(214, 188, 250, 1)
+}
+.acs-purple-400 {
+color: #b794f4;
+color: rgba(183, 148, 244, 1)
+}
+.acs-purple-500 {
+color: #9f7aea;
+color: rgba(159, 122, 234, 1)
+}
+.acs-purple-600 {
+color: #805ad5;
+color: rgba(128, 90, 213, 1)
+}
+.acs-purple-700 {
+color: #6b46c1;
+color: rgba(107, 70, 193, 1)
+}
+.acs-purple-800 {
+color: #553c9a;
+color: rgba(85, 60, 154, 1)
+}
+.acs-purple-900 {
+color: #44337a;
+color: rgba(68, 51, 122, 1)
+}
+/* violet */
+.acs-violet-50 {
+color: #f5f3ff;
+color: rgba(245, 243, 255, 1);
+}
+.acs-violet-100 {
+color: #ede9fe;
+color: rgba(237, 233, 254, 1);
+}
+.acs-violet-200 {
+color: #ddd6fe;
+color: rgba(221, 214, 254, 1);
+}
+.acs-violet-300 {
+color: #c4b5fd;
+color: rgba(196, 181, 253, 1);
+}
+.acs-violet-400 {
+color: #a78bfa;
+color: rgba(167, 139, 250, 1);
+}
+.acs-violet-500 {
+color: #8b5cf6;
+color: rgba(139, 91, 246, 1);
+}
+.acs-violet-600 {
+color: #7c3aed;
+color: rgba(124, 58, 237, 1);
+}
+.acs-violet-700 {
+color: #6d28d9;
+color: rgba(109, 39, 217, 1);
+}
+.acs-violet-800 {
+color: #5b21b6;
+color: rgba(91, 32, 182, 1);
+}
+.acs-violet-900 {
+color: #4c1d95;
+color: rgba(75, 29, 149, 1);
+}
+/* indigo */
+.acs-indigo-50 {
+color: #eef2ff;
+color: rgba(238, 242, 255, 1)
+}
+.acs-indigo-100 {
+color: #e0e7ff;
+color: rgba(224, 231, 255, 1)
+}
+.acs-indigo-200 {
+color: #c7d2fe;
+color: rgba(199, 210, 254, 1)
+}
+.acs-indigo-300 {
+color: #a5b4fc;
+color: rgba(165, 180, 252, 1)
+}
+.acs-indigo-400 {
+color: #818cf8;
+color: rgba(128, 140, 248, 1)
+}
+.acs-indigo-500 {
+color: #6366f1;
+color: rgba(99, 102, 241, 1)
+}
+.acs-indigo-600 {
+color: #4f46e5;
+color: rgba(79, 70, 229, 1)
+}
+.acs-indigo-700 {
+color: #4338ca;
+color: rgba(67, 56, 202, 1)
+}
+.acs-indigo-800 {
+color: #3730a3;
+color: rgba(55, 48, 163, 1)
+}
+.acs-indigo-900 {
+color: #312e81;
+color: rgba(49, 46, 129, 1)
+}
+/* blue */
+.acs-blue-50 {
+color: #eff6ff;
+color: rgba(239, 246, 255, 1)
+}
+.acs-blue-100 {
+color: #dbeafe;
+color: rgba(219, 234, 255, 1)
+}
+.acs-blue-200 {
+color: #bfdbfe;
+color: rgba(191, 219, 254, 1)
+}
+.acs-blue-300 {
+color: #93c5fd;
+color: rgba(147, 197, 253, 1)
+}
+.acs-blue-400 {
+color: #60a5fa;
+color: rgba(96, 165, 250, 1)
+}
+.acs-blue-500 {
+color: #3b82f6;
+color: rgba(59, 130, 246, 1)
+}
+.acs-blue-600 {
+color: #2563eb;
+color: rgba(40, 99, 235, 1)
+}
+.acs-blue-700 {
+color: #1d4ed8;
+color: rgba(34, 78, 216, 1)
+}
+.acs-blue-800 {
+color: #1e40af;
+color: rgba(30, 64, 175, 1)
+}
+.acs-blue-900 {
+color: #1e3a8a;
+color: rgba(30, 58, 138, 1)
+}
+/* light blue */
+.acs-lt-blue-50 {
+color: #f0f9ff;
+color: rgba(240, 249, 255, 1);
+}
+.acs-lt-blue-100 {
+color: #e0f2fe;
+color: rgba(224, 242, 254, 1);
+}
+.acs-lt-blue-200 {
+color: #bae6fd;
+color: rgba(186, 230, 253, 1);
+}
+.acs-lt-blue-300 {
+color: #7dd3fc;
+color: rgba(125, 211, 252, 1);
+}
+.acs-lt-blue-400 {
+color: #38bdf8;
+color: rgba(65, 189, 248, 1);
+}
+.acs-lt-blue-500 {
+color: #0ea5e9;
+color: rgba(57, 165, 233, 1);
+}
+.acs-lt-blue-600 {
+color: #0284c7;
+color: rgba(45, 132, 199, 1);
+}
+.acs-lt-blue-700 {
+color: #0369a1;
+color: rgba(34, 105, 161, 1);
+}
+.acs-lt-blue-800 {
+color: #075985;
+color: rgba(27, 89, 133, 1);
+}
+.acs-lt-blue-900 {
+color: #0c4a6e;
+color: rgba(21, 74, 110, 1);
+}
+/* cyan */
+.acs-cyan-50 {
+color: #ecfeff;
+color: rgba(236, 254, 255, 1);
+}
+.acs-cyan-100 {
+color: #cffafe;
+color: rgba(207, 250, 254, 1);
+}
+.acs-cyan-200 {
+color: #a5f3fc;
+color: rgba(165, 243, 252, 1);
+}
+.acs-cyan-300 {
+color: #67e8f9;
+color: rgba(103, 231, 249, 1);
+}
+.acs-cyan-400 {
+color: #22d3ee;
+color: rgba(71, 211, 238, 1);
+}
+.acs-cyan-500 {
+color: #06b6d4;
+color: rgba(60, 182, 212, 1);
+}
+.acs-cyan-600 {
+color: #0891b2;
+color: rgba(47, 145, 178, 1);
+}
+.acs-cyan-700 {
+color: #0e7490;
+color: rgba(36, 116, 144, 1);
+}
+.acs-cyan-800 {
+color: #155e75;
+color: rgba(27, 93, 117, 1);
+}
+.acs-cyan-900 {
+color: #164e63;
+color: rgba(22, 78, 99, 1);
+}
+/* teal */
+.acs-teal-50 {
+color: #f0fdfa;
+color: rgba(240, 253, 250, 1)
+}
+.acs-teal-100 {
+color: #ccfbf1;
+color: rgba(204, 251, 241, 1)
+}
+.acs-teal-200 {
+color: #99f6e4;
+color: rgba(153, 246, 228, 1)
+}
+.acs-teal-300 {
+color: #5eead4;
+color: rgba(94, 234, 212, 1)
+}
+.acs-teal-400 {
+color: #2dd4bf;
+color: rgba(68, 212, 191, 1)
+}
+.acs-teal-500 {
+color: #14b8a6;
+color: rgba(58, 184, 166, 1)
+}
+.acs-teal-600 {
+color: #0d9488;
+color: rgba(45, 148, 136, 1)
+}
+.acs-teal-700 {
+color: #0f766e;
+color: rgba(34, 118, 110, 1)
+}
+.acs-teal-800 {
+color: #115e59;
+color: rgba(25, 94, 90, 1)
+}
+.acs-teal-900 {
+color: #134e4a;
+color: rgba(20, 78, 74, 1)
+}
+/* emerald */
+.acs-emerald-50 {
+color: #ecfdf5;
+color: rgba(236,253,245, 1);
+}
+.acs-emerald-100 {
+color: #d1fae5;
+color: rgba(209,250,229, 1);
+}
+.acs-emerald-200 {
+color: #a7f3d0;
+color: rgba(167,243,208, 1);
+}
+.acs-emerald-300 {
+color: #6ee7b7;
+color: rgba(110,231,183, 1);
+}
+.acs-emerald-400 {
+color: #34d399;
+color: rgba(66,211,152, 1);
+}
+.acs-emerald-500 {
+color: #10b981;
+color: rgba(57,185,129, 1);
+}
+.acs-emerald-600 {
+color: #059669;
+color: rgba(44,150,105, 1);
+}
+.acs-emerald-700 {
+color: #047857;
+color: rgba(34,120,87, 1);
+}
+.acs-emerald-800 {
+color: #065f46;
+color: rgba(25,95,70, 1);
+}
+.acs-emerald-900 {
+color: #064e3b;
+color: rgba(19,77,59, 1);
+}
+/* green */
+.acs-green-50 {
+color: #f0fdf4;
+color: rgba(240,253,244, 1)
+}
+.acs-green-100 {
+color: #dcfce7;
+color: rgba(220,252,231, 1)
+}
+.acs-green-200 {
+color: #bbf7d0;
+color: rgba(187,247,208, 1)
+}
+.acs-green-300 {
+color: #86efac;
+color: rgba(134,239,172, 1)
+}
+.acs-green-400 {
+color: #4ade80;
+color: rgba(74,222,127, 1)
+}
+.acs-green-500 {
+color: #22c55e;
+color: rgba(60,197,94, 1)
+}
+.acs-green-600 {
+color: #16a34a;
+color: rgba(48,163,74, 1)
+}
+.acs-green-700 {
+color: #15803d;
+color: rgba(35,127,61, 1)
+}
+.acs-green-800 {
+color: #166534;
+color: rgba(26,101,52, 1)
+}
+.acs-green-900 {
+color: #14532d;
+color: rgba(20,83,44, 1)
+}
+/* lime */
+.acs-lime-50 {
+color: #f7fee7;
+color: rgba(247,254,231, 1)
+}
+.acs-lime-100 {
+color: #ecfccb;
+color: rgba(236,252,203, 1)
+}
+.acs-lime-200 {
+color: #d9f99d;
+color: rgba(217,249,157, 1)
+}
+.acs-lime-300 {
+color: #bef264;
+color: rgba(190,242,99, 1)
+}
+.acs-lime-400 {
+color: #a3e635;
+color: rgba(163,230,53, 1)
+}
+.acs-lime-500 {
+color: #84cc16;
+color: rgba(132,204,22, 1)
+}
+.acs-lime-600 {
+color: #65a30d;
+color: rgba(100,162,13, 1)
+}
+.acs-lime-700 {
+color: #4d7c0f;
+color: rgba(77,124,15, 1)
+}
+.acs-lime-800 {
+color: #3f6212;
+color: rgba(63,98,19, 1)
+}
+.acs-lime-900 {
+color: #365314;
+color: rgba(54,83,20, 1)
+}
+/* yellow */
+.acs-yellow-50 {
+color: #fefce8;
+color: rgba(254,252,232, 1)
+}
+.acs-yellow-100 {
+color: #fef9c3;
+color: rgba(254,249,195, 1)
+}
+.acs-yellow-200 {
+color: #fef08a;
+color: rgba(253,240,138, 1)
+}
+.acs-yellow-300 {
+color: #fde047;
+color: rgba(251,224,72, 1)
+}
+.acs-yellow-400 {
+color: #facc15;
+color: rgba(250,204,20, 1)
+}
+.acs-yellow-500 {
+color: #eab308;
+color: rgba(234,179,8, 1)
+}
+.acs-yellow-600 {
+color: #ca8a04;
+color: rgba(202,138,5, 1)
+}
+.acs-yellow-700 {
+color: #a16207;
+color: rgba(161,98,6, 1)
+}
+.acs-yellow-800 {
+color: #854d0e;
+color: rgba(133,77,14, 1)
+}
+.acs-yellow-900 {
+color: #713f12;
+color: rgba(113,63,18, 1)
+}
+/* orange */
+.acs-orange-50 {
+color: #fffaf0;
+color: rgba(255, 250, 240, 1)
+}
+.acs-orange-100 {
+color: #fdf0d9;
+color: rgba(253, 240, 217, 1)
+}
+.acs-orange-200 {
+color: #feebc8;
+color: rgba(254, 235, 200, 1)
+}
+.acs-orange-300 {
+color: #fbd38d;
+color: rgba(251, 211, 141, 1)
+}
+.acs-orange-400 {
+color: #f6ad55;
+color: rgba(246, 173, 85, 1)
+}
+.acs-orange-500 {
+color: #ed8936;
+color: rgba(237, 137, 54, 1)
+}
+.acs-orange-600 {
+color: #dd6b20;
+color: rgba(221, 107, 32, 1)
+}
+.acs-orange-700 {
+color: #c05621;
+color: rgba(192, 86, 33, 1)
+}
+.acs-orange-800 {
+color: #9c4221;
+color: rgba(156, 66, 33, 1)
+}
+.acs-orange-900 {
+color: #7b341e;
+color: rgba(123, 52, 30, 1)
+}
+/* amber */
+.acs-amber-50 {
+color: #fffbeb;
+color: rgba(254,251,235, 1)
+}
+.acs-amber-100 {
+color: #fef3c7;
+color: rgba(253,243,198, 1)
+}
+.acs-amber-200 {
+color: #fde68a;
+color: rgba(252,230,138, 1)
+}
+.acs-amber-300 {
+color: #fcd34d;
+color: rgba(250,211,76, 1)
+}
+.acs-amber-400 {
+color: #fbbf24;
+color: rgba(249,191,36, 1)
+}
+.acs-amber-500 {
+color: #f59e0b;
+color: rgba(245,158,9, 1)
+}
+.acs-amber-600 {
+color: #d97706;
+color: rgba(217,119,6, 1)
+}
+.acs-amber-700 {
+color: #b45309;
+color: rgba(180,83,9, 1)
+}
+.acs-amber-800 {
+color: #92400e;
+color: rgba(146,64,15, 1)
+}
+.acs-amber-900 {
+color: #78350f;
+color: rgba(20,54,15, 1)
+}
+/* red */
+.acs-red-50 {
+color: #fef2f2;
+color: rgba(254,242,242, 1)
+}
+.acs-red-100 {
+color:#fee2e2;
+color: rgba(253,226,226, 1)
+}
+.acs-red-200 {
+color: #fecaca;
+color: rgba(251,202,202, 1)
+}
+.acs-red-300 {
+color: #fca5a5;
+color: rgba(248,165,165, 1)
+}
+.acs-red-400 {
+color: #f87171;
+color: rgba(246,113,113, 1)
+}
+.acs-red-500 {
+color: #ef4444;
+color: rgba(239,68,67, 1)
+}
+.acs-red-600 {
+color: #dc2626;
+color: rgba(220,39,38, 1)
+}
+.acs-red-700 {
+color: #b91c1c;
+color: rgba(185,28,28, 1)
+}
+.acs-red-800 {
+color: #991b1b;
+color: rgba(153,27,28, 1)
+}
+.acs-red-900 {
+color: #7f1d1d;
+color: rgba(127,29,30, 1)
+}
+/* warm gray */
+.acs-warm-gray-50 {
+color: #fafaf9;
+color: rgba(250,250,249, 1)
+}
+.acs-warm-gray-100 {
+color:#f5f5f4;
+color: rgba(245,245,244, 1)
+}
+.acs-warm-gray-200 {
+color: #e7e5e4;
+color: rgba(231,229,228, 1)
+}
+.acs-warm-gray-300 {
+color: #d6d3d1;
+color: rgba(214,211,209, 1)
+}
+.acs-warm-gray-400 {
+color: #a8a29e;
+color: rgba(168,162,158, 1)
+}
+.acs-warm-gray-500 {
+color: #78716c;
+color: rgba(120,113,108, 1)
+}
+.acs-warm-gray-600 {
+color: #57534e;
+color: rgba(87,83,78, 1)
+}
+.acs-warm-gray-700 {
+color: #44403c;
+color: rgba(68,64,60, 1)
+}
+.acs-warm-gray-800 {
+color: #292524;
+color: rgba(41,37,37, 1)
+}
+.acs-warm-gray-900 {
+color: #1c1917;
+color: rgba(29,25,24, 1)
+}
+/* true gray */
+.acs-true-gray-50 {
+color: #fafafa;
+color: rgba(250,250,250, 1)
+}
+.acs-true-gray-100 {
+color: #f5f5f5;
+color: rgba(245,245,245, 1)
+}
+.acs-true-gray-200 {
+color: #e5e5e5;
+color: rgba(229,229,229, 1)
+}
+.acs-true-gray-300 {
+color: #d4d4d4;
+color: rgba(212,212,212, 1)
+}
+.acs-true-gray-400 {
+color: #a3a3a3;
+color: rgba(163,163,163, 1)
+}
+.acs-true-gray-500 {
+color: #737373;
+color: rgba(115,115,115, 1)
+}
+.acs-true-gray-600 {
+color: #525252;
+color: rgba(82,82,82, 1)
+}
+.acs-true-gray-700 {
+color: #404040;
+color: rgba(64,64,64, 1)
+}
+.acs-true-gray-800 {
+color: #262626;
+color: rgba(38,38,38, 1)
+}
+.acs-true-gray-900 {
+color: #171717;
+color: rgba(24,24,24, 1)
+}
+/* gray */
+.acs-gray-50 {
+color: #fafafa;
+color: rgba(250,250,250, 1)
+}
+.acs-gray-100 {
+color: #f4f4f5;
+color: rgba(244,244,245, 1)
+}
+.acs-gray-200 {
+color: #e4e4e7;
+color: rgba(228,228,231, 1)
+}
+.acs-gray-300 {
+color: #d4d4d8;
+color: rgba(212,212,216, 1)
+}
+.acs-gray-400 {
+color: #a1a1aa;
+color: rgba(161,161,170, 1)
+}
+.acs-gray-500 {
+color: #71717a;
+color: rgba(113,113,122, 1)
+}
+.acs-gray-600 {
+color: #52525b;
+color: rgba(82,82,91, 1)
+}
+.acs-gray-700 {
+color: #3f3f46;
+color: rgba(63,63,70, 1)
+}
+.acs-gray-800 {
+color: #27272a;
+color: rgba(39,39,42, 1)
+}
+.acs-gray-900 {
+color: #18181b;
+color: rgba(24,24,26, 1)
+}
+/* cool gray */
+.acs-cool-gray-50 {
+color: #f9fafb;
+color: rgba(249,250,251, 1)
+}
+.acs-cool-gray-100 {
+color: #f3f4f6;
+color: rgba(243,244,246, 1)
+}
+.acs-cool-gray-200 {
+color: #e5e7eb;
+color: rgba(229,231,235, 1)
+}
+.acs-cool-gray-300 {
+color: #d1d5db;
+color: rgba(209,213,219, 1)
+}
+.acs-cool-gray-400 {
+color: #9ca3af;
+color: rgba(156,163,175, 1)
+}
+.acs-cool-gray-500 {
+color: #6b7280;
+color: rgba(107,114,128, 1)
+}
+.acs-cool-gray-600 {
+color: #4b5563;
+color: rgba(75,85,100, 1)
+}
+.acs-cool-gray-700 {
+color: #374151;
+color: rgba(55,65,81, 1)
+}
+.acs-cool-gray-800 {
+color: #1f2937;
+color: rgba(31,42,55, 1)
+}
+.acs-cool-gray-900 {
+color: #111827;
+color: rgba(17,24,38, 1)
+}
+/* blue gray */
+.acs-blue-gray-50 {
+color: #f8fafc;
+color: rgba(248,250,252, 1)
+}
+.acs-blue-gray-100 {
+color: #f1f5f9;
+color: rgba(241,245,249, 1)
+}
+.acs-blue-gray-200 {
+color: #e2e8f0;
+color: rgba(226,231,240, 1)
+}
+.acs-blue-gray-300 {
+color: #cbd5e1;
+color: rgba(203,213,225, 1)
+}
+.acs-blue-gray-400 {
+color: #94a3b8;
+color: rgba(148,163,184, 1)
+}
+.acs-blue-gray-500 {
+color: #64748b;
+color: rgba(100,116,139, 1)
+}
+.acs-blue-gray-600 {
+color: #475569;
+color: rgba(71,85,105, 1)
+}
+.acs-blue-gray-700 {
+color: #334155;
+color: rgba(51,65,85, 1)
+}
+.acs-blue-gray-800 {
+color: #1e293b;
+color: rgba(30,41,59, 1)
+}
+.acs-blue-gray-900 {
+color: #0f172a;
+color: rgba(16,24,42, 1)
 }
 
 
