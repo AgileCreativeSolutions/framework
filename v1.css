@@ -7718,7 +7718,15 @@ background-color: rgba(16,24,42, var(--acs-bg-opacity))
 
 
 
-/* Base Text Colors
+/* Base Text Colors */
+.acs-black {
+color: #000
+}
+
+.acs-white {
+color: #fff
+}
+
 /* rose */
 .acs-rose-50 {
 color: #fff1f2;
@@ -8771,7 +8779,7 @@ transform: scaleX(-1);
 filter: FlipH;
 -ms-filter: "FlipH"; 
 }
-    
+
 .acs-flip-y {
 -moz-transform: scaleY(-1);
 -o-transform: scaleY(-1);
