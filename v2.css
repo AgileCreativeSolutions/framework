@@ -146,6 +146,11 @@ padding-top: 0 !important
 /* ddc adjustments */
 
 
+style {
+display: contents !important
+}
+
+
 .acs-wrapper {
 position: relative;
 width: 100vw !important;
@@ -276,8 +281,7 @@ display: -ms-flexbox;
 .acs-column, .acs-columns {
 position: relative;
 width: 100%;
-padding-right: 1em;
-padding-left: 1em;
+padding: 0% clamp(1vmin, 25px, .5%);
 }
 
 
