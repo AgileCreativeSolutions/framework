@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
-
-/* === ACS Typographic Scale Control (v2) ===
-   --acs-rem is absolute (16px) to decouple from host <html> root.
-   Override per page/section as needed: .acs-wrapper { --acs-rem: 15px; }
-*/
-:root{ --acs-rem: 16px; }
-
 /* Font Awesome */
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /* Google Material Icons */
 @import url(https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Sharp|Material+Icons+Round|Material+Icons+Two+Tone);
+
+
+/* === ACS Typographic Scale Control (v2) ===
+   --acs-rem is absolute (16px) to decouple from host <html> root.
+   Override per page/section as needed: .acs-wrapper { --acs-rem: 16px; }
+*/
+:root{ --acs-rem: 16px; }
 
 
 /* Table of contents
