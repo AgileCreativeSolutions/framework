@@ -1,11 +1,12 @@
 @charset "UTF-8";
+@charset "iso-8859-15";
 
 
-/* === ACS Typographic Scale Control ===
-   Use --acs-rem to scale all .acs-text-* utilities.
-   Example: .acs-wrapper { --acs-rem: 0.9375rem; } // 15px base inside ACS wrapper
+/* === ACS Typographic Scale Control (v2) ===
+   --acs-rem is absolute (16px) to decouple from host <html> root.
+   Override per page/section as needed: .acs-wrapper { --acs-rem: 15px; }
 */
-:root{ --acs-rem: 1rem; }
+:root{ --acs-rem: 16px; }
 /* Font Awesome */
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css");
 
@@ -62,8 +63,11 @@ scroll-behavior: smooth;
 -moz-osx-font-smoothing: grayscale;
 }
 
-.acs-wrapper *, .acs-wrapper *::before, .acs-wrapper *::after { 
-box-sizing: border-box;
+body, div {
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
 }
 
 body {
@@ -3008,14 +3012,12 @@ line-height: 1.8;
 
 /* Headings */
 /* Normalizer */
-.acs-wrapper .acs-h1, 
-.acs-wrapper .acs-h2,
-.acs-wrapper .acs-h3,
-.acs-wrapper .acs-h4,
-.acs-wrapper .acs-h5,
-.acs-wrapper .acs-h6,
-.acs-wrapper p {
-margin:0; padding:0; border:0; font-size:100%; vertical-align:baseline;
+.acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6, p  {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
 }
 
 
@@ -3151,191 +3153,191 @@ vertical-align: baseline;
 
 /* For devices larger than 0px */
 .acs-text-1 {
-font-size: calc(var(--acs-rem) * .125)
+font-size: calc(var(--acs-rem) * .125) !important
 }
 .acs-text-2 {
-font-size: calc(var(--acs-rem) * .25)
+font-size: calc(var(--acs-rem) * .25) !important
 }
 .acs-text-3 {
-font-size: calc(var(--acs-rem) * .5)
+font-size: calc(var(--acs-rem) * .5) !important
 }
 .acs-text-4 {
-font-size: calc(var(--acs-rem) * .75)
+font-size: calc(var(--acs-rem) * .75) !important
 }
 .acs-text-5 {
-font-size: calc(var(--acs-rem) * .875)
+font-size: calc(var(--acs-rem) * .875) !important
 }
 .acs-text-6 {
-font-size: calc(var(--acs-rem) * 1)
+font-size: calc(var(--acs-rem) * 1) !important
 }
 .acs-text-7 {
-font-size: calc(var(--acs-rem) * 1.125)
+font-size: calc(var(--acs-rem) * 1.125) !important
 }
 .acs-text-8 {
-font-size: calc(var(--acs-rem) * 1.25)
+font-size: calc(var(--acs-rem) * 1.25) !important
 }
 .acs-text-9 {
-font-size: calc(var(--acs-rem) * 1.5)
+font-size: calc(var(--acs-rem) * 1.5) !important
 }
 .acs-text-10 {
-font-size: calc(var(--acs-rem) * 1.75)
+font-size: calc(var(--acs-rem) * 1.75) !important
 }
 .acs-text-11 {
-font-size: calc(var(--acs-rem) * 1.875)
+font-size: calc(var(--acs-rem) * 1.875) !important
 }
 .acs-text-12 {
-font-size: calc(var(--acs-rem) * 2)
+font-size: calc(var(--acs-rem) * 2) !important
 }
 .acs-text-13 {
-font-size: calc(var(--acs-rem) * 2.125)
+font-size: calc(var(--acs-rem) * 2.125) !important
 }
 .acs-text-14 {
-font-size: calc(var(--acs-rem) * 2.25)
+font-size: calc(var(--acs-rem) * 2.25) !important
 }
 .acs-text-15 {
-font-size: calc(var(--acs-rem) * 2.5)
+font-size: calc(var(--acs-rem) * 2.5) !important
 }
 .acs-text-16 {
-font-size: calc(var(--acs-rem) * 2.75)
+font-size: calc(var(--acs-rem) * 2.75) !important
 }
 .acs-text-17 {
-font-size: calc(var(--acs-rem) * 2.875)
+font-size: calc(var(--acs-rem) * 2.875) !important
 }
 .acs-text-18 {
-font-size: calc(var(--acs-rem) * 3)
+font-size: calc(var(--acs-rem) * 3) !important
 }
 .acs-text-19 {
-font-size: calc(var(--acs-rem) * 4)
+font-size: calc(var(--acs-rem) * 4) !important
 }
 .acs-text-20 {
-font-size: calc(var(--acs-rem) * 5)
+font-size: calc(var(--acs-rem) * 5) !important
 }
 
 /* For devices larger than 575px (Phablet) */
 @media (min-width: 575px) {
 .acs-text-1-sm {
-font-size: calc(var(--acs-rem) * .125)
+font-size: calc(var(--acs-rem) * .125) !important
 }
 .acs-text-2-sm {
-font-size: calc(var(--acs-rem) * .25)
+font-size: calc(var(--acs-rem) * .25) !important
 }
 .acs-text-3-sm {
-font-size: calc(var(--acs-rem) * .5)
+font-size: calc(var(--acs-rem) * .5) !important
 }
 .acs-text-4-sm {
-font-size: calc(var(--acs-rem) * .75)
+font-size: calc(var(--acs-rem) * .75) !important
 }
 .acs-text-5-sm {
-font-size: calc(var(--acs-rem) * .875)
+font-size: calc(var(--acs-rem) * .875) !important
 }
 .acs-text-6-sm {
-font-size: calc(var(--acs-rem) * 1)
+font-size: calc(var(--acs-rem) * 1) !important
 }
 .acs-text-7-sm {
-font-size: calc(var(--acs-rem) * 1.125)
+font-size: calc(var(--acs-rem) * 1.125) !important
 }
 .acs-text-8-sm {
-font-size: calc(var(--acs-rem) * 1.25)
+font-size: calc(var(--acs-rem) * 1.25) !important
 }
 .acs-text-9-sm {
-font-size: calc(var(--acs-rem) * 1.5)
+font-size: calc(var(--acs-rem) * 1.5) !important
 }
 .acs-text-10-sm {
-font-size: calc(var(--acs-rem) * 1.75)
+font-size: calc(var(--acs-rem) * 1.75) !important
 }
 .acs-text-11-sm {
-font-size: calc(var(--acs-rem) * 1.875)
+font-size: calc(var(--acs-rem) * 1.875) !important
 }
 .acs-text-12-sm {
-font-size: calc(var(--acs-rem) * 2)
+font-size: calc(var(--acs-rem) * 2) !important
 }
 .acs-text-13-sm {
-font-size: calc(var(--acs-rem) * 2.125)
+font-size: calc(var(--acs-rem) * 2.125) !important
 }
 .acs-text-14-sm {
-font-size: calc(var(--acs-rem) * 2.25)
+font-size: calc(var(--acs-rem) * 2.25) !important
 }
 .acs-text-15-sm {
-font-size: calc(var(--acs-rem) * 2.5)
+font-size: calc(var(--acs-rem) * 2.5) !important
 }
 .acs-text-16-sm {
-font-size: calc(var(--acs-rem) * 2.75)
+font-size: calc(var(--acs-rem) * 2.75) !important
 }
 .acs-text-17-sm {
-font-size: calc(var(--acs-rem) * 2.875)
+font-size: calc(var(--acs-rem) * 2.875) !important
 }
 .acs-text-18-sm {
-font-size: calc(var(--acs-rem) * 3)
+font-size: calc(var(--acs-rem) * 3) !important
 }
 .acs-text-19-sm {
-font-size: calc(var(--acs-rem) * 4)
+font-size: calc(var(--acs-rem) * 4) !important
 }
 .acs-text-20-sm {
-font-size: calc(var(--acs-rem) * 5)
+font-size: calc(var(--acs-rem) * 5) !important
 }
 }
 
 /* For devices larger than 768px (Desktop) */
 @media (min-width: 768px) {
 .acs-text-1-md {
-font-size: calc(var(--acs-rem) * .125)
+font-size: calc(var(--acs-rem) * .125) !important
 }
 .acs-text-2-md {
-font-size: calc(var(--acs-rem) * .25)
+font-size: calc(var(--acs-rem) * .25) !important
 }
 .acs-text-3-md {
-font-size: calc(var(--acs-rem) * .5)
+font-size: calc(var(--acs-rem) * .5) !important
 }
 .acs-text-4-md {
-font-size: calc(var(--acs-rem) * .75)
+font-size: calc(var(--acs-rem) * .75) !important
 }
 .acs-text-5-md {
-font-size: calc(var(--acs-rem) * .875)
+font-size: calc(var(--acs-rem) * .875) !important
 }
 .acs-text-6-md {
-font-size: calc(var(--acs-rem) * 1)
+font-size: calc(var(--acs-rem) * 1) !important
 }
 .acs-text-7-md {
-font-size: calc(var(--acs-rem) * 1.125)
+font-size: calc(var(--acs-rem) * 1.125) !important
 }
 .acs-text-8-md {
-font-size: calc(var(--acs-rem) * 1.25)
+font-size: calc(var(--acs-rem) * 1.25) !important
 }
 .acs-text-9-md {
-font-size: calc(var(--acs-rem) * 1.5)
+font-size: calc(var(--acs-rem) * 1.5) !important
 }
 .acs-text-10-md {
-font-size: calc(var(--acs-rem) * 1.75)
+font-size: calc(var(--acs-rem) * 1.75) !important
 }
 .acs-text-11-md {
-font-size: calc(var(--acs-rem) * 1.875)
+font-size: calc(var(--acs-rem) * 1.875) !important
 }
 .acs-text-12-md {
-font-size: calc(var(--acs-rem) * 2)
+font-size: calc(var(--acs-rem) * 2) !important
 }
 .acs-text-13-md {
-font-size: calc(var(--acs-rem) * 2.125)
+font-size: calc(var(--acs-rem) * 2.125) !important
 }
 .acs-text-14-md {
-font-size: calc(var(--acs-rem) * 2.25)
+font-size: calc(var(--acs-rem) * 2.25) !important
 }
 .acs-text-15-md {
-font-size: calc(var(--acs-rem) * 2.5)
+font-size: calc(var(--acs-rem) * 2.5) !important
 }
 .acs-text-16-md {
-font-size: calc(var(--acs-rem) * 2.75)
+font-size: calc(var(--acs-rem) * 2.75) !important
 }
 .acs-text-17-md {
-font-size: calc(var(--acs-rem) * 2.875)
+font-size: calc(var(--acs-rem) * 2.875) !important
 }
 .acs-text-18-md {
-font-size: calc(var(--acs-rem) * 3)
+font-size: calc(var(--acs-rem) * 3) !important
 }
 .acs-text-19-md {
-font-size: calc(var(--acs-rem) * 4)
+font-size: calc(var(--acs-rem) * 4) !important
 }
 .acs-text-20-md {
-font-size: calc(var(--acs-rem) * 5)
+font-size: calc(var(--acs-rem) * 5) !important
 }
 }
 
@@ -3343,64 +3345,64 @@ font-size: calc(var(--acs-rem) * 5)
 /* For devices larger than 1024px (Large Desktop) */
 @media (min-width: 1024px) {
 .acs-text-1-lg {
-font-size: calc(var(--acs-rem) * .125)
+font-size: calc(var(--acs-rem) * .125) !important
 }
 .acs-text-2-lg {
-font-size: calc(var(--acs-rem) * .25)
+font-size: calc(var(--acs-rem) * .25) !important
 }
 .acs-text-3-lg {
-font-size: calc(var(--acs-rem) * .5)
+font-size: calc(var(--acs-rem) * .5) !important
 }
 .acs-text-4-lg {
-font-size: calc(var(--acs-rem) * .75)
+font-size: calc(var(--acs-rem) * .75) !important
 }
 .acs-text-5-lg {
-font-size: calc(var(--acs-rem) * .875)
+font-size: calc(var(--acs-rem) * .875) !important
 }
 .acs-text-6-lg {
-font-size: calc(var(--acs-rem) * 1)
+font-size: calc(var(--acs-rem) * 1) !important
 }
 .acs-text-7-lg {
-font-size: calc(var(--acs-rem) * 1.125)
+font-size: calc(var(--acs-rem) * 1.125) !important
 }
 .acs-text-8-lg {
-font-size: calc(var(--acs-rem) * 1.25)
+font-size: calc(var(--acs-rem) * 1.25) !important
 }
 .acs-text-9-lg {
-font-size: calc(var(--acs-rem) * 1.5)
+font-size: calc(var(--acs-rem) * 1.5) !important
 }
 .acs-text-10-lg {
-font-size: calc(var(--acs-rem) * 1.75)
+font-size: calc(var(--acs-rem) * 1.75) !important
 }
 .acs-text-11-lg {
-font-size: calc(var(--acs-rem) * 1.875)
+font-size: calc(var(--acs-rem) * 1.875) !important
 }
 .acs-text-12-lg {
-font-size: calc(var(--acs-rem) * 2)
+font-size: calc(var(--acs-rem) * 2) !important
 }
 .acs-text-13-lg {
-font-size: calc(var(--acs-rem) * 2.125)
+font-size: calc(var(--acs-rem) * 2.125) !important
 }
 .acs-text-14-lg {
-font-size: calc(var(--acs-rem) * 2.25)
+font-size: calc(var(--acs-rem) * 2.25) !important
 }
 .acs-text-15-lg {
-font-size: calc(var(--acs-rem) * 2.5)
+font-size: calc(var(--acs-rem) * 2.5) !important
 }
 .acs-text-16-lg {
-font-size: calc(var(--acs-rem) * 2.75)
+font-size: calc(var(--acs-rem) * 2.75) !important
 }
 .acs-text-17-lg {
-font-size: calc(var(--acs-rem) * 2.875)
+font-size: calc(var(--acs-rem) * 2.875) !important
 }
 .acs-text-18-lg {
-font-size: calc(var(--acs-rem) * 3)
+font-size: calc(var(--acs-rem) * 3) !important
 }
 .acs-text-19-lg {
-font-size: calc(var(--acs-rem) * 4)
+font-size: calc(var(--acs-rem) * 4) !important
 }
 .acs-text-20-lg {
-font-size: calc(var(--acs-rem) * 5)
+font-size: calc(var(--acs-rem) * 5) !important
 }
 }
 
@@ -3408,64 +3410,64 @@ font-size: calc(var(--acs-rem) * 5)
 /* For devices larger than 1280px (XL Desktop) */
 @media (min-width: 1280px) {
 .acs-text-1-xl {
-font-size: calc(var(--acs-rem) * .125)
+font-size: calc(var(--acs-rem) * .125) !important
 }
 .acs-text-2-xl {
-font-size: calc(var(--acs-rem) * .25)
+font-size: calc(var(--acs-rem) * .25) !important
 }
 .acs-text-3-xl {
-font-size: calc(var(--acs-rem) * .5)
+font-size: calc(var(--acs-rem) * .5) !important
 }
 .acs-text-4-xl {
-font-size: calc(var(--acs-rem) * .75)
+font-size: calc(var(--acs-rem) * .75) !important
 }
 .acs-text-5-xl {
-font-size: calc(var(--acs-rem) * .875)
+font-size: calc(var(--acs-rem) * .875) !important
 }
 .acs-text-6-xl {
-font-size: calc(var(--acs-rem) * 1)
+font-size: calc(var(--acs-rem) * 1) !important
 }
 .acs-text-7-xl {
-font-size: calc(var(--acs-rem) * 1.125)
+font-size: calc(var(--acs-rem) * 1.125) !important
 }
 .acs-text-8-xl {
-font-size: calc(var(--acs-rem) * 1.25)
+font-size: calc(var(--acs-rem) * 1.25) !important
 }
 .acs-text-9-xl {
-font-size: calc(var(--acs-rem) * 1.5)
+font-size: calc(var(--acs-rem) * 1.5) !important
 }
 .acs-text-10-xl {
-font-size: calc(var(--acs-rem) * 1.75)
+font-size: calc(var(--acs-rem) * 1.75) !important
 }
 .acs-text-11-xl {
-font-size: calc(var(--acs-rem) * 1.875)
+font-size: calc(var(--acs-rem) * 1.875) !important
 }
 .acs-text-12-xl {
-font-size: calc(var(--acs-rem) * 2)
+font-size: calc(var(--acs-rem) * 2) !important
 }
 .acs-text-13-xl {
-font-size: calc(var(--acs-rem) * 2.125)
+font-size: calc(var(--acs-rem) * 2.125) !important
 }
 .acs-text-14-xl {
-font-size: calc(var(--acs-rem) * 2.25)
+font-size: calc(var(--acs-rem) * 2.25) !important
 }
 .acs-text-15-xl {
-font-size: calc(var(--acs-rem) * 2.5)
+font-size: calc(var(--acs-rem) * 2.5) !important
 }
 .acs-text-16-xl {
-font-size: calc(var(--acs-rem) * 2.75)
+font-size: calc(var(--acs-rem) * 2.75) !important
 }
 .acs-text-17-xl {
-font-size: calc(var(--acs-rem) * 2.875)
+font-size: calc(var(--acs-rem) * 2.875) !important
 }
 .acs-text-18-xl {
-font-size: calc(var(--acs-rem) * 3)
+font-size: calc(var(--acs-rem) * 3) !important
 }
 .acs-text-19-xl {
-font-size: calc(var(--acs-rem) * 4)
+font-size: calc(var(--acs-rem) * 4) !important
 }
 .acs-text-20-xl {
-font-size: calc(var(--acs-rem) * 5)
+font-size: calc(var(--acs-rem) * 5) !important
 }  
 }
 
@@ -3474,64 +3476,64 @@ font-size: calc(var(--acs-rem) * 5)
 /* For devices larger than 1536px (2XL Desktop) */
 @media (min-width: 1536px) {
 .acs-text-1-2xl {
-font-size: calc(var(--acs-rem) * .125)
+font-size: calc(var(--acs-rem) * .125) !important
 }
 .acs-text-2-2xl {
-font-size: calc(var(--acs-rem) * .25)
+font-size: calc(var(--acs-rem) * .25) !important
 }
 .acs-text-3-2xl {
-font-size: calc(var(--acs-rem) * .5)
+font-size: calc(var(--acs-rem) * .5) !important
 }
 .acs-text-4-2xl {
-font-size: calc(var(--acs-rem) * .75)
+font-size: calc(var(--acs-rem) * .75) !important
 }
 .acs-text-5-2xl {
-font-size: calc(var(--acs-rem) * .875)
+font-size: calc(var(--acs-rem) * .875) !important
 }
 .acs-text-6-2xl {
-font-size: calc(var(--acs-rem) * 1)
+font-size: calc(var(--acs-rem) * 1) !important
 }
 .acs-text-7-2xl {
-font-size: calc(var(--acs-rem) * 1.125)
+font-size: calc(var(--acs-rem) * 1.125) !important
 }
 .acs-text-8-2xl {
-font-size: calc(var(--acs-rem) * 1.25)
+font-size: calc(var(--acs-rem) * 1.25) !important
 }
 .acs-text-9-2xl {
-font-size: calc(var(--acs-rem) * 1.5)
+font-size: calc(var(--acs-rem) * 1.5) !important
 }
 .acs-text-10-2xl {
-font-size: calc(var(--acs-rem) * 1.75)
+font-size: calc(var(--acs-rem) * 1.75) !important
 }
 .acs-text-11-2xl {
-font-size: calc(var(--acs-rem) * 1.875)
+font-size: calc(var(--acs-rem) * 1.875) !important
 }
 .acs-text-12-2xl {
-font-size: calc(var(--acs-rem) * 2)
+font-size: calc(var(--acs-rem) * 2) !important
 }
 .acs-text-13-2xl {
-font-size: calc(var(--acs-rem) * 2.125)
+font-size: calc(var(--acs-rem) * 2.125) !important
 }
 .acs-text-14-2xl {
-font-size: calc(var(--acs-rem) * 2.25)
+font-size: calc(var(--acs-rem) * 2.25) !important
 }
 .acs-text-15-2xl {
-font-size: calc(var(--acs-rem) * 2.5)
+font-size: calc(var(--acs-rem) * 2.5) !important
 }
 .acs-text-16-2xl {
-font-size: calc(var(--acs-rem) * 2.75)
+font-size: calc(var(--acs-rem) * 2.75) !important
 }
 .acs-text-17-2xl {
-font-size: calc(var(--acs-rem) * 2.875)
+font-size: calc(var(--acs-rem) * 2.875) !important
 }
 .acs-text-18-2xl {
-font-size: calc(var(--acs-rem) * 3)
+font-size: calc(var(--acs-rem) * 3) !important
 }
 .acs-text-19-2xl {
-font-size: calc(var(--acs-rem) * 4)
+font-size: calc(var(--acs-rem) * 4) !important
 }
 .acs-text-20-2xl {
-font-size: calc(var(--acs-rem) * 5)
+font-size: calc(var(--acs-rem) * 5) !important
 } 
 }
 
