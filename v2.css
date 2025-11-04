@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@charset "iso-8859-15";
 
 /* Font Awesome */
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css");
@@ -43,6 +42,10 @@ box-sizing: border-box;
 }
 
 html {
+scroll-behavior: smooth;
+}
+
+.acs-wrapper {
 margin: 0;
 padding: 0;
 border: 0;
@@ -51,16 +54,10 @@ font-size: 100%;
 -ms-text-size-adjust: 100%;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
--webkit-font-smoothing: auto;
--moz-osx-font-smoothing: auto;
-scroll-behavior: smooth;
 }
 
-body, div {
-margin: 0;
-padding: 0;
-border: 0;
-vertical-align: baseline;
+.acs-wrapper *, .acs-wrapper *::before, .acs-wrapper *::after { 
+box-sizing: border-box;
 }
 
 body {
@@ -3005,12 +3002,14 @@ line-height: 1.8;
 
 /* Headings */
 /* Normalizer */
-.acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6, p  {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-vertical-align: baseline;
+.acs-wrapper .acs-h1, 
+.acs-wrapper .acs-h2,
+.acs-wrapper .acs-h3,
+.acs-wrapper .acs-h4,
+.acs-wrapper .acs-h5,
+.acs-wrapper .acs-h6,
+.acs-wrapper p {
+margin:0; padding:0; border:0; font-size:100%; vertical-align:baseline;
 }
 
 
